@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar__container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__brand a {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar__button {
+    width: 50px;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    background: var(--purple);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navbar__button-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: unset;
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    border: 4px solid var(--purple);
+    border-radius: 100%;
+}
+
+body.dark .navbar__brand a {
+    color: var(--white);
+}
+
+body.dark .navbar__button {
+    background: var(--yellow);
+    color: var(--black);
+}
+
+body.dark .navbar__button-toggle {
+    right: 0;
+    left: unset;
+    background: var(--black);
+    border-color: var(--yellow);
+}
