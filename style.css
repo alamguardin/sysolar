@@ -16,6 +16,13 @@
   --purple: #47388C;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .2s all ease-out;
+}
+
 body {
   background-color: var(--white);
 }
