@@ -9,7 +9,7 @@ export default function home() {
 
             <div class="home__content">
                 <h1 class="home__title">Know your surroundings</h1>
-                <p class="home__description">Learn about our solor system in a creative way</p>
+                <p class="home__description">Learn about our solar system in a creative way</p>
                 <button class="home__button">Get started</button>
                 <p class="home__author">Created by <a href="https://github.com/alamguardin">Alam Guardin</a></p>
             </div>
