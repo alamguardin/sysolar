@@ -1,3 +1,5 @@
+import './home.css'
+
 export default function home() {
     return /*html*/`
         <div class="home">
@@ -9,7 +11,7 @@ export default function home() {
                 <h1 class="home__title">Know your surroundings</h1>
                 <p class="home__description">Learn about our solor system in a creative way</p>
                 <button class="home__button">Get started</button>
-                <p>Created by <a href="https://github.com/alamguardin">Alam Guardin</a></p>
+                <p class="home__author">Created by <a href="https://github.com/alamguardin">Alam Guardin</a></p>
             </div>
         </div>
     `;
