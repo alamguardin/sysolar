@@ -1,10 +1,11 @@
 import { navbar } from "./components/navbar";
+import content from "./views/content";
 import home from "./views/home";
 
 
-export default function render() {
+export default function render(hash) {
     return `
     ${navbar()} 
-    ${home()}
+    ${hash === '#content' ? content() : home() }
     `;
 }

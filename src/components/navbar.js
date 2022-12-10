@@ -5,7 +5,7 @@ export function navbar() {
     <header class="navbar">
         <nav class="navbar__container">
             <div class="navbar__brand">
-                <a href="#home">Sysolar</a>
+                <a href="#">Sysolar</a>
             </div>
             <div class="navbar__actions">
                 <button class="navbar__button" id="btn-theme">
